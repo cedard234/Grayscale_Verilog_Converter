@@ -2,8 +2,8 @@
 help:
 	@echo "Welcome to use Grayscale_Verilog_Converter!"
 	@echo "Usage: make requirements: install the required packages"
-	@echo "       make image image=[image_path]: convert the grayscale image to verilog file"
-	@echo "       make folder folder=[folder]: convert all the grayscale images in the folder to verilog files"
+	@echo "       make image image=<path_to_image>: convert the grayscale image to verilog file"
+	@echo "       make folder folder=<folder>: convert all the grayscale images in the folder to verilog files"
 	@echo "       make test: convert all the grayscale images in the test folder to verilog files"
 	@echo "       make clean: clean the build folder"
 

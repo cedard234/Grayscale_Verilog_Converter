@@ -16,8 +16,9 @@ These dependencies have been listed in requirements.txt file.
 3. Run ```make test``` to test whether the test images have been successfully converted into verilog code or not.
 > The test images are stored in ```test/``` directory. They are originally from [this repository](https://github.com/ZFTurbo/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA). Thanks all the contributors for providing these images.
 
-4a. If you want to make a single image, run ```make image image=<path_to_image>```. The result will be stored in ```build``` directory.
-4b. If you want to run a batch of images, run ```make folder folder=<folder>```. The result will also be stored in ```build``` directory.
+4. Building images
+    1. If you want to make a single image, run ```make image image=<path_to_image>```. The result will be stored in ```build``` directory.
+    2. If you want to run a batch of images, run ```make folder folder=<folder>```. The result will also be stored in ```build``` directory.
 5. If you want to clean the build directory, run ```make clean```.
 6. You can also run ```make``` if you want to see help message.
 
